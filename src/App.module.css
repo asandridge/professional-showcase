@@ -1,7 +1,7 @@
 .flexContainer {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .sideBar {
@@ -14,6 +14,27 @@
     color: white;
 }
 
-.contentContainer {
-    width: 80%;
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 5%;
+    border: 5px solid;
 }
+
+.sideBarLink {
+    margin: 2%;
+    cursor: pointer;
+}
+
+.activeLink {
+    font-weight: bold !important;
+}
+
+.contentBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }

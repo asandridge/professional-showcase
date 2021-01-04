@@ -1,6 +1,8 @@
+import appStyles from "../../App.module.css";
+
 const Skills = () => {
     return (
-        <div>
+        <div className={appStyles.contentBlock}>
             Here are some skills.
         </div>
     )

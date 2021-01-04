@@ -1,7 +1,9 @@
+import appStyles from "../../App.module.css";
+
 const Awards = () => {
     return (
-        <div>
-            <div id={'section1'}>My awards are here.</div>
+        <div className={appStyles.contentBlock}>
+            <div>My awards are here.</div>
         </div>
     )
 }

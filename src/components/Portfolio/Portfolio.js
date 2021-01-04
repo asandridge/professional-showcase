@@ -1,6 +1,9 @@
+import appStyles from "../../App.module.css";
+
 const Portfolio = () => {
     return (
-        <div>
+        <div className={appStyles.contentBlock}>
+            Some of my projects here.
         </div>
     )
 }

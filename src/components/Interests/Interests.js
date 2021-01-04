@@ -1,6 +1,9 @@
+import appStyles from "../../App.module.css";
+
 const Interests = () => {
     return (
-        <div>
+        <div className={appStyles.contentBlock}>
+            My side interests are here.
         </div>
     )
 }

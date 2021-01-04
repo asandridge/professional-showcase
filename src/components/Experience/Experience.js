@@ -1,6 +1,9 @@
+import appStyles from "../../App.module.css";
+
 const Experience = () => {
     return (
-        <div>
+        <div className={appStyles.contentBlock}>
+            Some of my experience.
         </div>
     )
 }
