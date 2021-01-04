@@ -1,0 +1,19 @@
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sideBar {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(53, 124, 255);
+    color: white;
+}
+
+.contentContainer {
+    width: 80%;
+}
