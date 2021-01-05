@@ -13,7 +13,8 @@ const About = () => {
             <div>303-330-1197</div>
             <div>alex.sandridge@gmail.com</div>
 
-            <div style={{marginTop: '5%'}}>Some info about me.</div>
+            <div style={{marginTop: '5%'}}>I am a software developer specializing in front end development and testing.</div>
+            <div>I have a particular interest in blockchain technology and aspire to make it my career focus.</div>
 
             <div style={{display: 'flex', width: '100%', marginTop: '5%'}}>
                 <Fab color="primary" href="https://github.com/asandridge" style={{marginRight: '5%'}}><GitHubIcon /></Fab>

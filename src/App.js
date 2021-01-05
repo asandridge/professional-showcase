@@ -10,17 +10,13 @@ import Skills from './components/Skills/Skills';
 import myPortrait from './images/me.png';
 
 const App = () => {
-    
-    const getScrollPosition = () => {
-
-    }
 
     return (
         <div className={styles.flexContainer}>
 
             <div className={styles.sideBar}>
                 <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-                    <img src={myPortrait} alt="Me"/>
+                    <img src={myPortrait} alt="Me" style={{ borderRadius: "50%", height: "100px", width: "100px", margin: "5%", border: "5px solid" }}/>
                     <Link activeClass={styles.activeLink} to="About" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >About</Link>
                     <Link activeClass={styles.activeLink} to="Education" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Education</Link>
                     <Link activeClass={styles.activeLink} to="Experience" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Experience</Link>

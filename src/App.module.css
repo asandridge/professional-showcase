@@ -14,14 +14,6 @@
     color: white;
 }
 
-img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    margin: 5%;
-    border: 5px solid;
-}
-
 .sideBarLink {
     margin: 2%;
     cursor: pointer;
@@ -37,4 +29,13 @@ img {
     justify-content: center;
     align-items: flex-start;
     height: 100%;
-  }
+}
+
+h2, h4 {
+    padding: 0px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
