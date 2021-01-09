@@ -16,7 +16,9 @@ const App = () => {
 
             <div className={styles.sideBar}>
                 <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-                    <img src={myPortrait} alt="Me" style={{ borderRadius: "50%", height: "100px", width: "100px", margin: "5%", border: "5px solid" }}/>
+                    <Link to="About" spy={true} smooth={true} duration={250} containerId="containerElement" >
+                        <img src={myPortrait} alt="Me" style={{ borderRadius: "50%", height: "100px", width: "100px", marginBottom: "5%", border: "5px solid", cursor: "pointer" }}/>
+                    </Link>
                     <Link activeClass={styles.activeLink} to="About" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >About</Link>
                     <Link activeClass={styles.activeLink} to="Education" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Education</Link>
                     <Link activeClass={styles.activeLink} to="Experience" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Experience</Link>
@@ -28,13 +30,19 @@ const App = () => {
             </div>
 
             <Element className="element" id="containerElement" style={{ width: "80%", height: "100%", overflow: 'scroll', paddingLeft: '5%' }}>
-                <Element name="About" style={{ height: '100%' }}><About /></Element>
-                <Element name="Education" style={{ marginTop: '50%', height: '100%' }}><Education /></Element>
-                <Element name="Experience" style={{ marginTop: '50%', height: '100%' }}><Experience /></Element>
-                <Element name="Portfolio" style={{ marginTop: '50%', height: '100%' }}><Portfolio /></Element>
-                <Element name="Skills" style={{ marginTop: '50%', height: '100%' }}><Skills /></Element>
-                <Element name="Interests" style={{ marginTop: '50%', height: '100%' }}><Interests /></Element>
-                <Element name="Awards" style={{ marginTop: '50%', height: '100%' }}><Awards /></Element>
+                <Element name="About" style={{ marginBottom: '15%', height: '100%' }}><About /></Element>
+                <hr />
+                <Element name="Education" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Education /></Element>
+                <hr />
+                <Element name="Experience" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Experience /></Element>
+                <hr />
+                <Element name="Portfolio" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Portfolio /></Element>
+                <hr />
+                <Element name="Skills" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Skills /></Element>
+                <hr />
+                <Element name="Interests" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Interests /></Element>
+                <hr />
+                <Element name="Awards" style={{ marginTop: '15%', height: '100%' }}><Awards /></Element>
             </Element>
          </div>
     )

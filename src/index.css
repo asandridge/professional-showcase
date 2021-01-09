@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2.5vh;
 }
 
 code {

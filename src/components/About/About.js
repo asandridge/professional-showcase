@@ -8,13 +8,14 @@ const About = () => {
     return (
         <div className={appStyles.contentBlock}>
 
-            <h1>Alex Sandridge</h1>
-            <div>1052 Sleepy Hollow Road, Golden Colorado, 80401</div>
-            <div>303-330-1197</div>
-            <div>alex.sandridge@gmail.com</div>
+            <h1>Alex <span className={appStyles.textColored}>Sandridge</span></h1>
+            <h4>1052 Sleepy Hollow Road, Golden CO, 80401 - 303-330-1197 - alex.sandridge@gmail.com</h4>
 
-            <div style={{marginTop: '5%'}}>I am a software developer specializing in front end development and testing.</div>
-            <div>I have a particular interest in blockchain technology and aspire to make it my career focus.</div>
+            <p style={{marginTop: '5%'}}>
+                I am a software developer specializing in front end development and testing.
+                <br />
+                I have a particular interest in blockchain technology and aspire to make it my career focus.
+            </p>
 
             <div style={{display: 'flex', width: '100%', marginTop: '5%'}}>
                 <Fab color="primary" href="https://github.com/asandridge" style={{marginRight: '5%'}}><GitHubIcon /></Fab>

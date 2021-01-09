@@ -9,7 +9,7 @@ const Education = () => {
                     <h4>Aug. 2016 - May 2020</h4>
                 </div>
                 <h4>Bachelor of Science in Computer Science</h4>
-                <h4>GPA: 3.38</h4>
+                <p>GPA: 3.38</p>
             </div>
             <br />
             <br />
@@ -18,7 +18,7 @@ const Education = () => {
                     <h2>Arvada West High School</h2>
                     <h4>Aug. 2012 - May 2016</h4>
                 </div>
-                <h4>GPA: 4.0</h4>
+                <p>GPA: 4.0</p>
             </div>
        </div>
     )
