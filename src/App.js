@@ -25,7 +25,6 @@ const App = () => {
                     <Link activeClass={styles.activeLink} to="Portfolio" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Portfolio</Link>
                     <Link activeClass={styles.activeLink} to="Skills" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Skills</Link>
                     <Link activeClass={styles.activeLink} to="Interests" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Interests</Link>
-                    <Link activeClass={styles.activeLink} to="Awards" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Awards</Link>
                 </div>
             </div>
 
@@ -41,8 +40,6 @@ const App = () => {
                 <Element name="Skills" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Skills /></Element>
                 <hr />
                 <Element name="Interests" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Interests /></Element>
-                <hr />
-                <Element name="Awards" style={{ marginTop: '15%', height: '100%' }}><Awards /></Element>
             </Element>
          </div>
     )

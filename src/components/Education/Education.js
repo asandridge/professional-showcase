@@ -1,4 +1,7 @@
 import appStyles from "../../App.module.css";
+import LinkIcon from "../LinkIcon/LinkIcon";
+import PDF from "../../documents/diploma.pdf"
+import { NavLink, BrowserRouter as Router } from 'react-router-dom'
 
 const Education = () => {
     return (
@@ -10,7 +13,9 @@ const Education = () => {
                     <h3 style={{fontSize: '5vh'}}>University of Colorado Boulder</h3>
                     <h4 style={{marginRight: "5%"}}>Aug. 2016 - May 2020</h4>
                 </div>
-                <h4>Bachelor of Science in Computer Science</h4>
+                <Router>
+                    <NavLink to={PDF} target='_blank' rel="noopener noreferrer"><h4>Bachelor of Science in Computer Science<LinkIcon /></h4></NavLink>
+                </Router>
                 <p>GPA: 3.38</p>
             </div>
             <div style={{width: "100%"}}>

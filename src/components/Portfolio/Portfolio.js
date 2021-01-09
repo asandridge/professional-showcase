@@ -12,9 +12,9 @@ const Portfolio = () => {
             <div>
                 <h3>CryptoReference</h3>
                 <br />
-                <a href="https://crypto-reference.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo<LinkIcon /></a>
+                <a href="https://crypto-reference.herokuapp.com/" target="_blank" rel="noopener noreferrer" style={{marginLeft: '5px'}}>Live Demo<LinkIcon /></a>
                 <br />
-                <a href="https://github.com/asandridge/crypto-reference" target="_blank" rel="noopener noreferrer">Source Code<LinkIcon /></a>
+                <a href="https://github.com/asandridge/crypto-reference" target="_blank" rel="noopener noreferrer" style={{marginLeft: '5px'}}>Source Code<LinkIcon /></a>
                 <br />
                 <br />
                 <p>A single-page web application whose purpose is to help visualize statistics from the crypto currency market. It leverages React.js for the user interface and a simple Express server for the back end, as well as the <a href="https://nomics.com/">Nomics API</a> for retrieving currency data.</p>
