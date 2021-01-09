@@ -5,11 +5,12 @@ import LinkIcon from "../LinkIcon/LinkIcon";
 const Portfolio = () => {
     return (
         <div className={appStyles.contentBlock}>
+            <h2>Portfolio</h2>
             <h4>Please use the link to my Github profile in the 'About' section for a full list of projects.</h4>
             <br />
             <br />
             <div>
-                <h2>CryptoReference</h2>
+                <h3>CryptoReference</h3>
                 <br />
                 <a href="https://crypto-reference.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo<LinkIcon /></a>
                 <br />
