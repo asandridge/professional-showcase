@@ -31,6 +31,25 @@
     height: 100%;
 }
 
+.marginTop {
+    margin-top: 5%;
+}
+
+.dateRange {
+    margin-right: 5%;
+}
+
+.flexRowAligned {
+    display: flex;
+    align-items: center;
+}
+
+.headerAndDate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 p {
     margin-left: 5px;
 }

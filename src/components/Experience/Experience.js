@@ -1,58 +1,54 @@
 import appStyles from "../../App.module.css";
-import LinkIcon from "../LinkIcon/LinkIcon";
+import LinkWithIcon from "../LinkWithIcon/LinkWithIcon";
 
 const Experience = () => {
     return (
-        <div className={appStyles.contentBlock} style={{ justifyContent: 'space-around' }}>
+        <div className={ appStyles.contentBlock } style={{ justifyContent: 'space-around' }}>
 
             <h2>Experience</h2>
 
-            <div style={{width: '100%'}}>
-                <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+            <div style={{ width: '100%' }}>
+                <div className={ appStyles.headerAndDate }>
                     <h3>Software Automation Engineer I</h3>
-                    <h4 style={{marginRight: "5%"}}>Jul. 2020 - Present</h4>
+                    <h4 className={ appStyles.dateRange }>Jul. 2020 - Present</h4>
                 </div>
-                <h4><a href="https://www.spotx.tv/" target="_blank" rel="noopener noreferrer">
-                    SpotX
-                    <LinkIcon />
+                <h4>
+                    <LinkWithIcon url="https://www.spotx.tv/" content="SpotX"/>
                     , Denver CO
-                </a></h4>
+                </h4>
             </div>
 
-            <div style={{width: '100%'}}>
-                <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+            <div style={{ width: '100%' }}>
+                <div className={ appStyles.headerAndDate }>
                     <h3>QA Automation Engineering Internship</h3>
-                    <h4 style={{marginRight: "5%"}}>Mar. 2019 - Jun. 2020</h4>
+                    <h4 className={ appStyles.dateRange }>Mar. 2019 - Jun. 2020</h4>
                 </div>
-                <h4><a href="https://www.spotx.tv/" target="_blank" rel="noopener noreferrer">
-                    SpotX
-                    <LinkIcon />
+                <h4>
+                    <LinkWithIcon url="https://www.spotx.tv/" content="SpotX"/>
                     , Denver CO
-                </a></h4>
+                </h4>
             </div>
 
-            <div style={{width: '100%'}}>
-                <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+            <div style={{ width: '100%' }}>
+                <div className={ appStyles.headerAndDate }>
                     <h3>Junior Systems Engineer</h3>
-                    <h4 style={{marginRight: "5%"}}>Sep. 2018 - Feb. 2019</h4>
+                    <h4 className={ appStyles.dateRange }>Sep. 2018 - Feb. 2019</h4>
                 </div>
-                <h4><a href="https://spectrum.com" target="_blank" rel="noopener noreferrer">
-                    Charter Communications, Inc.
-                    <LinkIcon />
+                <h4>
+                    <LinkWithIcon url="https://www.spectrum.com/" content="Charter Communications, Inc."/>
                     , Denver CO
-                </a></h4>
+                </h4>
             </div>
 
-            <div style={{width: '100%'}}>
-                <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+            <div style={{ width: '100%' }}>
+                <div className={ appStyles.headerAndDate }>
                     <h3>Atlassian Tools Administrator Intership</h3>
-                    <h4 style={{marginRight: "5%"}}>May 2018 - Aug. 2018</h4>
+                    <h4 className={ appStyles.dateRange }>May 2018 - Aug. 2018</h4>
                 </div>
-                <h4><a href="https://spectrum.com" target="_blank" rel="noopener noreferrer">
-                    Charter Communications, Inc.
-                    <LinkIcon />
+                <h4>
+                    <LinkWithIcon url="https://www.spectrum.com/" content="Charter Communications, Inc."/>
                     , Denver CO
-                </a></h4>
+                </h4>
             </div>
 
         </div>

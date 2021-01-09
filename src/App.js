@@ -11,19 +11,19 @@ import myPortrait from './images/me.png';
 const App = () => {
 
     return (
-        <div className={styles.flexContainer}>
+        <div className={ styles.flexContainer }>
 
-            <div className={styles.sideBar}>
-                <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <div className={ styles.sideBar }>
+                <div className={ styles.flexRowAligned } style={{ flexDirection: "column" }}>
                     <Link to="About" spy={true} smooth={true} duration={250} containerId="containerElement" >
-                        <img src={myPortrait} alt="Me" style={{ borderRadius: "50%", height: "100px", width: "100px", marginBottom: "5%", border: "5px solid", cursor: "pointer" }}/>
+                        <img src={ myPortrait } alt="Me" style={{ borderRadius: "50%", height: "100px", width: "100px", marginBottom: "5%", border: "5px solid", cursor: "pointer" }}/>
                     </Link>
-                    <Link activeClass={styles.activeLink} to="About" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >About</Link>
-                    <Link activeClass={styles.activeLink} to="Education" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Education</Link>
-                    <Link activeClass={styles.activeLink} to="Experience" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Experience</Link>
-                    <Link activeClass={styles.activeLink} to="Portfolio" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Portfolio</Link>
-                    <Link activeClass={styles.activeLink} to="Skills" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Skills</Link>
-                    <Link activeClass={styles.activeLink} to="Interests" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink} >Interests</Link>
+                    <Link activeClass={styles.activeLink} to="About" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>About</Link>
+                    <Link activeClass={styles.activeLink} to="Education" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Education</Link>
+                    <Link activeClass={styles.activeLink} to="Experience" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Experience</Link>
+                    <Link activeClass={styles.activeLink} to="Portfolio" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Portfolio</Link>
+                    <Link activeClass={styles.activeLink} to="Skills" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Skills</Link>
+                    <Link activeClass={styles.activeLink} to="Interests" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Interests</Link>
                 </div>
             </div>
 

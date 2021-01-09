@@ -2,7 +2,7 @@ import appStyles from "../../App.module.css";
 
 const Skills = () => {
     return (
-        <div className={appStyles.contentBlock} style={{ justifyContent: 'space-around' }}>
+        <div className={ appStyles.contentBlock } style={{ justifyContent: 'space-around' }}>
 
             <h2>Skills</h2>
 
