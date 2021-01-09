@@ -7,8 +7,8 @@ const Interests = () => {
             <h2>Interests</h2>
             <p>My primary interests in the software domain are web development and blockchain technologies.</p>
             <p>
-                Outside of software, I have many interests including salsa dancing, 
-                <LinkWithIcon url="https://asandridge.github.io/piping-site/" content="bagpipe playing"/>, 
+                Outside of software, I have many interests including salsa dancing,
+                <LinkWithIcon url="https://asandridge.github.io/piping-site/" content=" bagpipe playing"/>, 
                 language learning, home brewing, martial arts, and mindfulness.
             </p>
             <br />
