@@ -1,7 +1,6 @@
 import { Link, Element } from 'react-scroll'
 import styles from './App.module.css';
 import About from './components/About/About';
-import Awards from './components/Awards/Awards';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import Interests from './components/Interests/Interests';
