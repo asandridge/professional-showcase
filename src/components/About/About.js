@@ -18,9 +18,9 @@ const About = () => {
             </p>
 
             <div style={{display: 'flex', width: '100%', marginTop: '5%'}}>
-                <Fab color="primary" href="https://github.com/asandridge" style={{marginRight: '5%'}}><GitHubIcon /></Fab>
-                <Fab color="primary" href="https://www.linkedin.com/in/alexander-sandridge-7117a9175/" style={{marginRight: '5%'}}><LinkedInIcon /></Fab>
-                <Fab color="primary" href="https://www.facebook.com/alex.sandridge/" style={{marginRight: '5%'}}><FacebookIcon /></Fab>
+                <Fab color="primary" href="https://github.com/asandridge" style={{marginRight: '5%'}} target="_blank" rel="noopener noreferrer"><GitHubIcon /></Fab>
+                <Fab color="primary" href="https://www.linkedin.com/in/alexander-sandridge-7117a9175/" style={{marginRight: '5%'}} target="_blank" rel="noopener noreferrer"><LinkedInIcon /></Fab>
+                <Fab color="primary" href="https://www.facebook.com/alex.sandridge/" style={{marginRight: '5%'}} target="_blank" rel="noopener noreferrer"><FacebookIcon /></Fab>
             </div>
         </div>
     )
