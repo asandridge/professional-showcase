@@ -16,7 +16,7 @@ const App = () => {
             <div className={ styles.sideBar }>
                 <div className={ styles.flexRowAligned } style={{ flexDirection: "column" }}>
                     <Link to="About" spy={true} smooth={true} duration={250} containerId="containerElement" >
-                        <img src={ myPortrait } alt="Me" style={{ borderRadius: "50%", height: "100px", width: "100px", marginBottom: "5%", border: "5px solid", cursor: "pointer" }}/>
+                        <img src={ myPortrait } alt="Me" style={{ borderRadius: "50%", height: "18vmin", width: "18vmin", marginBottom: "5%", border: "5px solid", cursor: "pointer" }}/>
                     </Link>
                     <Link activeClass={styles.activeLink} to="About" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>About</Link>
                     <Link activeClass={styles.activeLink} to="Education" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Education</Link>
