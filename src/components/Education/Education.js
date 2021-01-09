@@ -8,6 +8,7 @@ const Education = () => {
         <div className={appStyles.contentBlock}>
             <h2>Education</h2>
             <div style={{height: '10vh'}}></div>
+
             <div style={{width: "100%"}}>
                 <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                     <h3 style={{fontSize: '5vh'}}>University of Colorado Boulder</h3>
@@ -18,6 +19,7 @@ const Education = () => {
                 </Router>
                 <p>GPA: 3.38</p>
             </div>
+
             <div style={{width: "100%"}}>
                 <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                     <h3 style={{fontSize: '5vh'}}>Arvada West High School</h3>
@@ -25,6 +27,7 @@ const Education = () => {
                 </div>
                 <p>GPA: 4.0</p>
             </div>
+
        </div>
     )
 }

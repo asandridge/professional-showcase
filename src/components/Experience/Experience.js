@@ -4,7 +4,9 @@ import LinkIcon from "../LinkIcon/LinkIcon";
 const Experience = () => {
     return (
         <div className={appStyles.contentBlock} style={{ justifyContent: 'space-around' }}>
+
             <h2>Experience</h2>
+
             <div style={{width: '100%'}}>
                 <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                     <h3>Software Automation Engineer I</h3>
@@ -16,6 +18,7 @@ const Experience = () => {
                     , Denver CO
                 </a></h4>
             </div>
+
             <div style={{width: '100%'}}>
                 <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                     <h3>QA Automation Engineering Internship</h3>
@@ -27,6 +30,7 @@ const Experience = () => {
                     , Denver CO
                 </a></h4>
             </div>
+
             <div style={{width: '100%'}}>
                 <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                     <h3>Junior Systems Engineer</h3>
@@ -38,6 +42,7 @@ const Experience = () => {
                     , Denver CO
                 </a></h4>
             </div>
+
             <div style={{width: '100%'}}>
                 <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                     <h3>Atlassian Tools Administrator Intership</h3>
@@ -49,6 +54,7 @@ const Experience = () => {
                     , Denver CO
                 </a></h4>
             </div>
+
         </div>
     )
 }
