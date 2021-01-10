@@ -21,24 +21,24 @@ const App = () => {
                     <Link activeClass={styles.activeLink} to="About" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>About</Link>
                     <Link activeClass={styles.activeLink} to="Education" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Education</Link>
                     <Link activeClass={styles.activeLink} to="Experience" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Experience</Link>
-                    <Link activeClass={styles.activeLink} to="Portfolio" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Portfolio</Link>
                     <Link activeClass={styles.activeLink} to="Skills" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Skills</Link>
+                    <Link activeClass={styles.activeLink} to="Portfolio" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Portfolio</Link>
                     <Link activeClass={styles.activeLink} to="Interests" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Interests</Link>
                 </div>
             </div>
 
             <Element className="element" id="containerElement" style={{ width: "80%", height: "100%", overflow: 'scroll', paddingLeft: '5%' }}>
-                <Element name="About" style={{ marginBottom: '15%', height: '100%' }}><About /></Element>
+                <Element name="About" className={ styles.contentContainer } style={{ marginTop: '0px' }}><About /></Element>
                 <hr />
-                <Element name="Education" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Education /></Element>
+                <Element name="Education" className={ styles.contentContainer }><Education /></Element>
                 <hr />
-                <Element name="Experience" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Experience /></Element>
+                <Element name="Experience" className={ styles.contentContainer }><Experience /></Element>
                 <hr />
-                <Element name="Portfolio" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Portfolio /></Element>
+                <Element name="Skills" className={ styles.contentContainer }><Skills /></Element>
                 <hr />
-                <Element name="Skills" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Skills /></Element>
+                <Element name="Portfolio" className={ styles.contentContainer }><Portfolio /></Element>
                 <hr />
-                <Element name="Interests" style={{ marginTop: '15%', height: '100%', marginBottom: '15%' }}><Interests /></Element>
+                <Element name="Interests" className={ styles.contentContainer }><Interests /></Element>
             </Element>
          </div>
     )

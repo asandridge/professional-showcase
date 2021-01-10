@@ -11,7 +11,7 @@ const Education = () => {
             <div className={ appStyles.contentElement }>
                 <div className={ appStyles.headerAndDate }>
                     <h3 style={{ fontSize: '5vmin' }}>University of Colorado Boulder</h3>
-                    <h4 className={ appStyles.dateRange }>Aug. 2016 - May 2020</h4>
+                    <h4>Aug. 2016 - May 2020</h4>
                 </div>
                 <Router>
                     <NavLink to={ PDF } target='_blank' rel="noopener noreferrer">
@@ -24,7 +24,7 @@ const Education = () => {
             <div className={ appStyles.contentElement }>
                 <div className={ appStyles.headerAndDate }>
                     <h3 style={{ fontSize: '5vmin' }}>Arvada West High School</h3>
-                    <h4 className={ appStyles.dateRange }>Aug. 2012 - May 2016</h4>
+                    <h4>Aug. 2012 - May 2016</h4>
                 </div>
                 <p>GPA: 4.0</p>
             </div>

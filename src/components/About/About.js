@@ -18,9 +18,12 @@ const About = () => {
                 I am a software developer specializing in front end development and testing.
                 <br />
                 I have a particular interest in blockchain technology and aspire to make it my career focus.
+                <br />
+                This is my personal professional website to showcase my accomplishments in software and provide
+                more information about myself than could be found on a one page resume.
             </p>
 
-            <div className={ `${appStyles.marginTop} ${appStyles.flexRowAligned}`} style={{ width: '100%' }}>
+            <div className={ appStyles.flexRowAligned } style={{ width: '100%', marginTop: '5vmin' }}>
                 <Fab color="primary" href="https://github.com/asandridge" style={{ marginRight: '5%' }} target="_blank" rel="noopener noreferrer"><GitHubIcon /></Fab>
                 <Fab color="primary" href="https://www.linkedin.com/in/alexander-sandridge-7117a9175/" style={{ marginRight: '5%' }} target="_blank" rel="noopener noreferrer"><LinkedInIcon /></Fab>
                 <Fab color="primary" href="https://www.facebook.com/alex.sandridge/" style={{ marginRight: '5%' }} target="_blank" rel="noopener noreferrer"><FacebookIcon /></Fab>
