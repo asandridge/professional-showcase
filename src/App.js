@@ -36,7 +36,7 @@ const App = () => {
                 <hr />
                 <Element name="Skills" className={ styles.contentContainer }><Skills /></Element>
                 <hr />
-                <Element name="Portfolio" className={ styles.contentContainer }><Portfolio /></Element>
+                <Element name="Portfolio" className={ styles.contentContainer } style={{ height: 'auto', minHeight: '100%' }}><Portfolio /></Element>
                 <hr />
                 <Element name="Interests" className={ styles.contentContainer }><Interests /></Element>
             </Element>
