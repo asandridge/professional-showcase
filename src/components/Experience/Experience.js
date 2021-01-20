@@ -42,7 +42,7 @@ const Experience = () => {
 
             <div className={ appStyles.contentElement }>
                 <div className={ appStyles.headerAndDate }>
-                    <h3>Atlassian Tools Administrator Intership</h3>
+                    <h3>Software Engineering Internship</h3>
                     <h4>May 2018 - Aug. 2018</h4>
                 </div>
                 <h4>
