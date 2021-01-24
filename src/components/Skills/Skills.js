@@ -7,23 +7,23 @@ const Skills = () => {
             <h2 className={ appStyles.contentElement }>Skills</h2>
 
             <div className={ appStyles.contentElement }>
-                <h3>Programming Languages:</h3> 
+                <h3>Programming Languages:</h3>
                 <h4>Javascript, Typescript, Python, HTML/CSS, C++</h4>
             </div>
 
             <div className={ appStyles.contentElement }>
-                <h3>Databases:</h3> 
-                <h4>Relational (MySQL), NoSQl</h4>
+                <h3>Databases:</h3>
+                <h4>MySQL, PostgreSQL, MongoDB</h4>
             </div>
 
             <div className={ appStyles.contentElement }>
-                <h3>Frameworks:</h3>
+                <h3>Application Frameworks:</h3>
                 <h4>React.js, Angular.js, Express.js</h4>
             </div>
 
             <div className={ appStyles.contentElement }>
                 <h3>Other tools and technologies:</h3>
-                <h4>Blockchain (Ethereum/Solidity), Docker, Jenkins, Selenium Webdriver</h4>
+                <h4>Docker, Jenkins, Selenium Webdriver, Blockchain (Ethereum/Solidity)</h4>
             </div>
 
         </div>

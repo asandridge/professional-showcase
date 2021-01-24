@@ -5,8 +5,8 @@ const Project = (props) => {
         <div>
             <h3>{ props.title }</h3>
             <div style={{ marginLeft: '5px' }}>
-                <LinkWithIcon url={ props.demoLink } content=" Demo" />
-                <LinkWithIcon url={ props.sourceLink } content=" Source Code" />
+                <b><LinkWithIcon url={ props.demoLink } content=" Demo" /></b>
+                <b><LinkWithIcon url={ props.sourceLink } content=" Source Code" /></b>
             </div>
             <p>{ props.description }</p>
             <br />
