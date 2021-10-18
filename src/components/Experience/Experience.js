@@ -9,7 +9,7 @@ const Experience = () => {
 
             <div className={ appStyles.contentElement }>
                 <div className={ appStyles.headerAndDate }>
-                    <h3>Software Automation Engineer I</h3>
+                    <h3>Software Automation Engineer</h3>
                     <h4>Jul. 2020 - Present</h4>
                 </div>
                 <h4>

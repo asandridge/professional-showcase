@@ -10,15 +10,13 @@ const About = () => {
         <div className={ appStyles.contentBlock }>
 
             <h1>Alex <span className={appStyles.textColored}>Sandridge</span></h1>
-            <h4>1052 Sleepy Hollow Road, Golden CO, 80401 - 303-330-1197 - alex.sandridge@gmail.com</h4>
+            <h4>1052 Sleepy Hollow Road, Golden CO, 80401 - 303-330-1197 - alexsandridge@tutanota.com</h4>
 
             <p className={ appStyles.marginTop }>
-                I am a software developer specializing in front end development and testing.
-                <br />
-                I have a particular interest in blockchain technology and aspire to make it my career focus.
+                I am a software developer specializing in CI/CD solutions as well as front end development and testing.
                 <br />
                 This is my personal professional website to showcase my accomplishments in software and provide
-                more information about myself than could be found on a one page resume.
+                a more in depth resource for my personal information.
             </p>
 
             <div className={ appStyles.flexRowAligned } style={{ width: '100%', marginTop: '5vmin' }}>
