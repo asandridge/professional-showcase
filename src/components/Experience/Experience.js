@@ -9,8 +9,19 @@ const Experience = () => {
 
             <div className={ appStyles.contentElement }>
                 <div className={ appStyles.headerAndDate }>
+                    <h3>Software Engineer</h3>
+                    <h4>Dec. 2021 - Present</h4>
+                </div>
+                <h4>
+                    <LinkWithIcon url="https://www.greeneggmedia.com/" content="Green Egg Media"/>
+                    , Denver CO
+                </h4>
+            </div>
+
+            <div className={ appStyles.contentElement }>
+                <div className={ appStyles.headerAndDate }>
                     <h3>Software Automation Engineer</h3>
-                    <h4>Jul. 2020 - Present</h4>
+                    <h4>Jul. 2020 - Dec. 2021</h4>
                 </div>
                 <h4>
                     <LinkWithIcon url="https://www.spotx.tv/" content="SpotX"/>
@@ -21,7 +32,7 @@ const Experience = () => {
             <div className={ appStyles.contentElement }>
                 <div className={ appStyles.headerAndDate }>
                     <h3>QA Automation Engineering Internship</h3>
-                    <h4>Mar. 2019 - Jun. 2020</h4>
+                    <h4>Mar. 2019 - Jul. 2020</h4>
                 </div>
                 <h4>
                     <LinkWithIcon url="https://www.spotx.tv/" content="SpotX"/>

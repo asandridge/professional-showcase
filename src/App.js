@@ -23,7 +23,7 @@ const App = () => {
                     <Link activeClass={styles.activeLink} to="Experience" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Experience</Link>
                     <Link activeClass={styles.activeLink} to="Skills" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Skills</Link>
                     <Link activeClass={styles.activeLink} to="Portfolio" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Portfolio</Link>
-                    <Link activeClass={styles.activeLink} to="Interests" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Interests</Link>
+                    {/* <Link activeClass={styles.activeLink} to="Interests" spy={true} smooth={true} duration={250} containerId="containerElement" className={styles.sideBarLink}>Interests</Link> */}
                 </div>
             </div>
 
@@ -37,8 +37,8 @@ const App = () => {
                 <Element name="Skills" className={ styles.contentContainer }><Skills /></Element>
                 <hr />
                 <Element name="Portfolio" className={ styles.contentContainer } style={{ height: 'auto', minHeight: '100%' }}><Portfolio /></Element>
-                <hr />
-                <Element name="Interests" className={ styles.contentContainer }><Interests /></Element>
+                {/* <hr />
+                <Element name="Interests" className={ styles.contentContainer }><Interests /></Element> */}
             </Element>
          </div>
     )

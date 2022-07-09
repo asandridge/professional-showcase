@@ -13,10 +13,7 @@ const About = () => {
             <h4>1052 Sleepy Hollow Road, Golden CO, 80401 - 303-330-1197 - alexsandridge@tutanota.com</h4>
 
             <p className={ appStyles.marginTop }>
-                I am a software developer specializing in CI/CD solutions as well as front end development and testing.
-                <br />
-                This is my personal professional website to showcase my accomplishments in software and provide
-                a more in depth resource for my personal information.
+                I am a software developer specializing in website and mobile app development, with experience in CI/CD solutions and automated testing.
             </p>
 
             <div className={ appStyles.flexRowAligned } style={{ width: '100%', marginTop: '5vmin' }}>
